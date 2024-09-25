@@ -14,7 +14,14 @@ Any player can pick fruit, with configurable reward amounts. You can also change
 
 Follow our installation guide: [Click Here]()
 ﻿
-﻿
 > **Dependencies:**
-> **[stevo_lib 1.6.0](https://github.com/stevoscriptsteam/stevo_lib/releases/tag/1.6.9)**
+> <br>
+> **[stevo_lib 1.6.9](https://github.com/stevoscriptsteam/stevo_lib/releases/tag/1.6.8)**
+> <br>
 > **[ox_lib](https://github.com/overextended/ox_lib/releases/tag/v3.24.0)**
+
+Preview: [Click Here](https://youtu.be/nmMr3Y0QKXw?si=sY0talBtUiRlEyOd)
+<br>
+Discord: [Click Here](https://discord.gg/stevoscripts)
+<br>
+**Check our our paid releases!**: [Click Here](https://store.stevoscripts.com/)

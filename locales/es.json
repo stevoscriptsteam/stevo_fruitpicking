@@ -1,177 +1,27 @@
 {
-    "prison_lockdown" : "¡La prisión está ahora en confinamiento!",
-    "prison_lockdown_end" : "El confinamiento de la prisión ha terminado",
-    "escape_instructions" : "[X] Para desprenderse de la cuerda",
-    "escape_detatched" : "Desprendido de la cuerda",
-
-    "handoverItemsProgress" : "Entregando artículos...",
-    "handoverItems" : "Artículos entregados",
-
-    "removed_sentence" : "¡Has eliminado la sentencia del jugador!",
-    
-    "error": {
-        "not_police": "No estás autorizado para usar esto.",
-        "not_exist": "Este jugador no existe.",
-        "not_inside_zone": "¡Debes estar dentro de la prisión para usar esto!",
-        "already_sentenced": "Este jugador ya ha sido sentenciado",
-        "notInmate" : "¡No eres un recluso!",
-        "notEnoughCredits" : "Solo tienes %s, pero necesitas %s",
-        "notEnough" : "No cumples con los requisitos de intercambio.",
-        "daytime" : "No puedes hacer esto durante el día.",
-        "no_lockdown" : "No hay un confinamiento actual"
+    "notify" : {
+        "picked" : "Recogiste %s",
+        "sold" : "Vendiste tu %s por $%s",
+        "notenough" : "No tienes %s.",
+        "failedSkill" : "No lograste recoger la fruta"
     },
 
-    "target": {
-        "warden" : "Habla con el alcaide",
-        "chef" : "Habla con el chef",
-        "prisoner" : "Habla con el recluso",
-        "handoverItems" : "Entregar artículos"
+    "progress" : {
+        "picking" : "Recogiendo un %s"
     },
 
     "textui" : {
-        "warden" : "[E] - Habla con el alcaide",
-        "chef" : "[E] - Habla con el chef",
-        "prisoner" : "[E] - Habla con el recluso",
-        "handoverItems" : "[E] - Entregar artículos"
+        "buyer" : "**[E]** Vender Fruta"
     },
 
-    "wardenMenu" : {
-        "header": "Alcaide de la Prisión",
-        "sentence_finished": "Salir de la prisión",
-        "sentenceinfo": "Ver información de la sentencia",
-        "job": "Trabajos de la prisión"
+    "target" : {
+        "buyer" : "Vender Fruta"
     },
 
-    "prisonerMenu" : {
-        "header": "Recluso",
-        "intelHeader" : "Recluso - Información",
-        "tradeHeader" : "Recluso - Intercambios",
-        "askTrade" : "Ver intercambios",
-        "askIntel" : "Pedir información",
-        "intel" : {
-            "escaping" : "Escapando",
-            "escapingheader" : "¡Hola pez! 😎",
-            "escapingcontent" : "Debemos ser rápidos porque los guardias están cerca, 😠\n Para escapar necesitas una cuerda y una tarjeta de acceso. Yo puedo ayudarte con la cuerda, pero tiene un precio.\n Mira mis intercambios para más información."
-        },
-        "trade" : {
-            "successTrade" : "Intercambio exitoso por %s"
-        }
-    },
-
-    "chefMenu" : {
-        "header": "Chef de la prisión",
-        "shopHeader" : "Chef de la prisión - Tienda",
-        "shop" : "Ver tienda",
-        "credits": "Créditos: %s",
-        "boughtItem" : "Compraste %s"
-    },
-
-    "sentence" : {
-        "header" : "Sentenciar jugador",
-        "inputReason" : "Sentencia (Motivo)",
-        "inputSentence" : "Sentencia (Acciones)",
-        "inputOffender" : "Sentencia (Infractor)",
-        "offenderSelected" : "Infractor seleccionado",
-        "actionsSelected" : "Acciones seleccionadas: %s",
-        "reasonSelected" : "Motivo seleccionado: %s",
-        "playerSentenced" : "Jugador sentenciado, ID de recluso: %s.",
-        "sentencedToBy" : "Sentenciado a %s acciones por %s"
-    },
-
-    "sentence_command": "sentencia",
-    "removesentence_command": "eliminar_sentencia",
-    "endlockdown_command" : "fin_confinamiento",
-
-    "prisondatamenu_header": "Información de la sentencia",
-    "prisondatamenu_actions": "Acciones restantes: %s",
-    "prisondatamenu_officer": "Oficial que sentencia: %s",
-    "prisondatamenu_reason": "Motivo de la sentencia: %s",
-    "prisondatamenu_credits": "Créditos de la sentencia: %s",
-    "prisondatamenu_sentenceTime": "Fecha de la sentencia: %s",
-    "prisonjobmenu_header": "Trabajos de la prisión",
-    "prisonjobmenu_canceljob": "Cancelar trabajo actual",
-    "prisonjobmenu_cancelJobNotify": "Has cancelado el trabajo de %s",
-    "prisonjobmenu_currentjob": "Actualmente eres %s",
-    "prisonjobmenu_nojob": "¡No tienes trabajo actualmente!",
-    "prisonjobmenu_cook": "Cocinero",
-    "prisonjobmenu_cleaner": "Limpiador",
-    "prisonjobmenu_grounds": "Encargado del jardín",
-    "prisonjobmenu_laundry": "Lavandería",
-    "prisonjobmenu_recycling": "Reciclaje",
-    "prisonjobmenu_setjob": "Ahora eres %s",
-
-    "cleanerjob" : {
-        "progress": {
-            "1" : "Limpiando 'suciedad'...",
-            "2" : "Limpiando basura..."
-        },
-        "textui": {
-            "1" : "[E] - Limpiar suciedad",
-            "2" : "[E] - Barrer basura"
-        },
-        "fail": "¡Has fallado!",
-        "newjob": "Nueva orden de trabajo: Encuentra el marcador azul.",
-        "switchinside" : "Ve adentro para tu nueva orden de trabajo",
-        "switchoutside" : "Ve afuera para tu nueva orden de trabajo"
-    },
-
-    "groundsjob" : {
-        "progress": "Soplando hojas...",
-        "textui": "[E] - Soplar hojas",
-        "fail": "¡Has fallado!",
-        "newjob": "Nueva orden de trabajo: Encuentra el marcador azul."
-    },
-
-    "cookjob" : {
-        "progress": {
-            "collectSupplies" : "Recolectando suministros...",
-            "cookFood" : "Cocinando comida..."
-        },
-        "textui": {
-            "collectSupplies" : "[E] - Recolectar suministros",
-            "cookFood" : "[E]- Cocinar comida"
-        },
-        "collectSupplies": "Nueva orden de trabajo: Recolecta suministros para la comida.",
-        "cookFood" : "Nueva orden de trabajo: Cocina la comida",
-        "deliverFood" : "Nueva orden de trabajo: Entrega la comida en la fila"
-    },
-
-    "laundryjob" : {
-        "progress": {
-            "collectLaundry" : "Recolectando ropa...",
-            "foldLaundry" : "Doblado de ropa..."
-        },
-        "textui": {
-            "collectLaundry" : "[E] - Recolectar ropa",
-            "foldLaundry" : "[E] - Doblar ropa"
-        },
-        "collectLaundry": "Nueva orden de trabajo: Recolecta la ropa.",
-        "foldLaundry" : "Nueva orden de trabajo: Dobla la ropa"
-    },
-
-    "recyclingjob" : {
-        "progress": {
-            "collectScrap" : "Buscando chatarra...",
-            "recycleScrap" : "Reciclando chatarra...",
-            "destroyScrap" : "Destruyendo chatarra..."
-        },
-        "textui": {
-            "collectScrap" : "[E] - Buscar chatarra",
-            "recycleScrap" : "[E] - Reciclar chatarra",
-            "destroyScrap" : "[E] - Destruir chatarra"
-        },
-        "scrap": {
-            "tire" : "Neumático",
-            "oldbox" : "Caja vieja",
-            "pizza" : "Pizza apestosa"
-        },
-        "collectScrap": "Nueva orden de trabajo: Busca chatarra",
-        "recycleScrap" : "Nueva orden de trabajo: Reciclar chatarra",
-        "destroyScrap" : "Nueva orden de trabajo: Destruir chatarra"
-    },
-
-    "finished_prison_sentence": "¡Has terminado tu sentencia, habla con el alcaide para salir!",
-    "return_to_prison": "¡No puedes escapar de esta manera!",
-    "release_from_prison": "¡Has sido liberado de la prisión!",
-    "prisonjobs_actions_remaining": "Acciones restantes: %s"
+    "menu" : {
+        "buyer" : "Comprador de Fruta",
+        "buyer_sell" : "Vender %s",
+        "buyer_sellall" : "Vender Todo",
+        "buyer_sellone" : "Vender 1x"
+    }
 }

@@ -8,9 +8,7 @@ Any player can pick fruit, with configurable reward amounts. You can also change
 ﻿﻿﻿- :school_satchel:  Supported inventories: All! 
 - :eye:  Supported targets: ox, qb & interact
 - :speaking_head:  Locales: English, Español & Dutch
-﻿
-**Preview: [Watch Preview]()﻿**
-**Download: [Click Here]()**
+
 
 Follow our installation guide: [Click Here]()
 ﻿

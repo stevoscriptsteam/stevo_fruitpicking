@@ -24,5 +24,6 @@ Discord: [Click Here](https://discord.gg/stevoscripts)
 <br>
 **Check our our paid releases!**: [Click Here](https://store.stevoscripts.com/)
 
+Inventory Images: [Artwork Inventory](https://discord.gg/u2Pzy94F)
 
 ![stevo_fruitpicking](https://github.com/user-attachments/assets/c6b61a3e-a421-4e56-becd-bc110419804b)

@@ -10,7 +10,7 @@ Any player can pick fruit, with configurable reward amounts. You can also change
 - :speaking_head:  Locales: English, Español & Dutch
 
 
-Follow our installation guide: [Click Here]()
+Follow our installation guide: [Click Here](https://docs.stevoscripts.com/free-scripts/stevo_fruitpicking)
 ﻿
 > **Dependencies:**
 > <br>
@@ -18,7 +18,7 @@ Follow our installation guide: [Click Here]()
 > <br>
 > **[ox_lib](https://github.com/overextended/ox_lib/releases/tag/v3.24.0)**
 
-Preview: [Click Here](https://youtu.be/nmMr3Y0QKXw?si=sY0talBtUiRlEyOd)
+Preview: [Click Here](https://youtu.be/L7AEyLIjhw0)
 <br>
 Discord: [Click Here](https://discord.gg/stevoscripts)
 <br>

@@ -1,4 +1,4 @@
-if not lib.checkDependency('stevo_lib', '1.6.9') then error('stevo_lib 1.6.9 required for stevo_portablecrafting') end
+if not lib.checkDependency('stevo_lib', '1.6.9') then error('stevo_lib 1.6.9 required for stevo_fruitpicking') end
 lib.locale()
 local config = require('config')
 local stevo_lib = exports['stevo_lib']:import()
@@ -77,7 +77,9 @@ local function pickFruit(type)
         if pickedFruit then 
             stevo_lib.Notify((locale('notify.picked'):format(type.type)), 'success', 3000)
         end
-        lib.showTextUI(type.textLabel)
+        if config.interaction == 'textui' then
+            lib.showTextUI(type.textLabel)
+        end
     end
 
 end

@@ -1,4 +1,4 @@
-
+if not lib.checkDependency('stevo_lib', '1.6.9') then error('stevo_lib 1.6.9 required for stevo_portablecrafting') end
 lib.locale()
 local config = require('config')
 local stevo_lib = exports['stevo_lib']:import()
@@ -53,7 +53,9 @@ local function deleteBlips()
 end
 
 local function pickFruit(type)
+    
     if type.skillCheck then 
+        Wait(500)
         if not lib.skillCheck(type.skillCheck) then 
             return stevo_lib.Notify(locale('notify.failedSkill'), 'error', 3000)
         end

@@ -1,4 +1,4 @@
-if not lib.checkDependency('stevo_lib', '1.6.9') then error('stevo_lib 1.6.9 required for stevo_portablecrafting') end
+if not lib.checkDependency('stevo_lib', '1.6.9') then error('stevo_lib 1.6.9 required for stevo_fruitpicking') end
 lib.locale()
 local config = require('config')
 local stevo_lib = exports['stevo_lib']:import()

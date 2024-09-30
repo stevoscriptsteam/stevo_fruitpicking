@@ -4,7 +4,7 @@ Any player can pick fruit, with configurable reward amounts. You can also change
 
 **Created with optimization and security as a first priority, giving a seamless and secure experience.**
 ﻿
-- :bank: ﻿﻿﻿ Supported frameworks: ESX, QBCore & Qbox 
+- :bank: ﻿﻿﻿ Supported frameworks: ESX, QBCore & Qbox
 ﻿﻿﻿- :school_satchel:  Supported inventories: All! 
 - :eye:  Supported targets: ox, qb & interact
 - :speaking_head:  Locales: English, Español & Dutch

@@ -5,7 +5,7 @@ lua54 'yes'
 
 author "Stevo Scripts | steve"
 description 'Fruit Picking Activity for FiveM'
-version '1.0.1'
+version '1.0.2'
 
 shared_script {
     '@ox_lib/init.lua',

@@ -3,8 +3,9 @@ lib.versionCheck('stevoscriptsteam/stevo_fruitpicking')
 lib.locale()
 local stevo_lib = exports['stevo_lib']:import()
 local config = lib.require('config')
+local lastPicked = {}
 
-lib.callback.register('stevo_fruitpicking:pickFruit', function(source, type)
+lib.callback.register('stevo_fruitpicking:pickedFruit', function(source, type)
     local nearPoint = false 
     local ped = GetPlayerPed(source)
     local coords = GetEntityCoords(ped)
@@ -29,18 +30,34 @@ lib.callback.register('stevo_fruitpicking:pickFruit', function(source, type)
         return false
     end
 
+    if lastPicked[source] then 
+        if os.time() - lastPicked[source] < type.pickDuration then 
+            local name = GetPlayerName(source)
+            local identifier = stevo_lib.GetIdentifier(source)
+    
+            lib.print.info(('User: %s (%s) tried to exploit stevo_fruitpicking'):format(name, identifier))
+            if config.dropCheaters then 
+                lastPicked[source] = nil
+                DropPlayer(source, 'Trying to exploit stevo_fruitpicking')
+            end
+            return false
+        end 
+    end
+
     stevo_lib.AddItem(source, type.item, type.pickChance)
+
+    lastPicked[source] = os.time()
 
     if config.debug then
         local name = GetPlayerName(source)
         local identifier = stevo_lib.GetIdentifier(source)
-        lib.print.info(('Added %s %s to %s (%s) via stevo_fruitpicking:pickFruit'):format(type.pickChance, type.item, name, identifier))
+        lib.print.info(('Added %s %s to %s (%s) via stevo_fruitpicking:pickedFruit'):format(type.pickChance, type.item, name, identifier))
     end
 
     return true
 end)
 
-lib.callback.register('stevo_fruitpicking:sellFruit', function(source, all, item, buyer)
+lib.callback.register('stevo_fruitpicking:soldFruit', function(source, all, item, buyer)
 
     if stevo_lib.HasItem(source, item) < 1 then 
         return false 
@@ -87,7 +104,7 @@ lib.callback.register('stevo_fruitpicking:sellFruit', function(source, all, item
     if config.debug then
         local name = GetPlayerName(source)
         local identifier = stevo_lib.GetIdentifier(source)
-        lib.print.info(('Added $%s to %s (%s) via stevo_fruitpicking:sellFruit'):format(payout, name, identifier))
+        lib.print.info(('Added $%s to %s (%s) via stevo_fruitpicking:soldFruit'):format(payout, name, identifier))
     end
 
     return payout

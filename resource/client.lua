@@ -73,7 +73,7 @@ local function pickFruit(type)
         },
         disable = { move = true, car = true, mouse = false, combat = true, },
     }) then    
-        local pickedFruit = lib.callback.await('stevo_fruitpicking:pickFruit', false, type)
+        local pickedFruit = lib.callback.await('stevo_fruitpicking:pickedFruit', false, type)
         if pickedFruit then 
             stevo_lib.Notify((locale('notify.picked'):format(type.type)), 'success', 3000)
         end
@@ -114,7 +114,7 @@ local function openBuyerMenu(buyer)
                     title = locale("menu.buyer_sellall"),
                     arrow = true,
                     onSelect = function()
-                        local sellFruit = lib.callback.await('stevo_fruitpicking:sellFruit', false, true, item, buyer)
+                        local sellFruit = lib.callback.await('stevo_fruitpicking:soldFruit', false, true, item, buyer)
                         if sellFruit then 
                             stevo_lib.Notify((locale('notify.sold'):format(itemInfo.label, sellFruit)), 'success', 3000)
                         else 
@@ -129,7 +129,7 @@ local function openBuyerMenu(buyer)
                     title = locale("menu.buyer_sellone"),
                     arrow = true,
                     onSelect = function()
-                        local sellFruit = lib.callback.await('stevo_fruitpicking:sellFruit', false, false, item, buyer)
+                        local sellFruit = lib.callback.await('stevo_fruitpicking:soldFruit', false, false, item, buyer)
                         if sellFruit then 
                             stevo_lib.Notify((locale('notify.sold'):format(itemInfo.label, sellFruit)), 'success', 3000)
                         else 

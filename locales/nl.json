@@ -1,27 +1,27 @@
 {
     "notify" : {
-        "picked" : "Je hebt %s geplukt",
+        "picked" : "Succesvol geplukt!",
         "sold" : "Je hebt je %s verkocht voor $%s",
-        "notenough" : "Je hebt geen %s.",
-        "failedSkill" : "Je bent niet geslaagd in het plukken van het fruit"
+        "notenough" : "Je hebt er geen!",
+        "failedSkill" : "Je bent niet geslaagd om iets te plukken!"
     },
 
     "progress" : {
-        "picking" : "Bezig met het plukken van een %s"
+        "picking" : "Bezig met plukken..."
     },
 
     "textui" : {
-        "buyer" : "**[E]** Fruit Verkopen"
+        "buyer" : "**[E]** Fruit verkopen"
     },
 
     "target" : {
-        "buyer" : "Fruit Verkopen"
+        "buyer" : "Fruit verkopen"
     },
 
     "menu" : {
-        "buyer" : "Fruit Koper",
+        "buyer" : "Verkoop items aan Boer Joe",
         "buyer_sell" : "Verkoop %s",
-        "buyer_sellall" : "Alles Verkopen",
+        "buyer_sellall" : "Alles verkopen",
         "buyer_sellone" : "Verkoop 1x"
-    }
+    }   
 }

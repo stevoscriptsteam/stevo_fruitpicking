@@ -1,27 +1,27 @@
 {
     "notify" : {
-        "picked" : "Recogiste %s",
+        "picked" : "¡Recogido con éxito!",
         "sold" : "Vendiste tu %s por $%s",
-        "notenough" : "No tienes %s.",
-        "failedSkill" : "No lograste recoger la fruta"
+        "notenough" : "¡No tienes fruta!",
+        "failedSkill" : "¡Fallaste al recoger algo!"
     },
 
     "progress" : {
-        "picking" : "Recogiendo un %s"
+        "picking" : "Recogiendo..."
     },
 
     "textui" : {
-        "buyer" : "**[E]** Vender Fruta"
+        "buyer" : "**[E]** Vender fruta"
     },
 
     "target" : {
-        "buyer" : "Vender Fruta"
+        "buyer" : "Vender fruta"
     },
 
     "menu" : {
-        "buyer" : "Comprador de Fruta",
+        "buyer" : "Vender artículos al Granjero Joe",
         "buyer_sell" : "Vender %s",
-        "buyer_sellall" : "Vender Todo",
+        "buyer_sellall" : "Vender todo",
         "buyer_sellone" : "Vender 1x"
-    }
+    }   
 }

@@ -1,0 +1,29 @@
+
+
+{
+    "notify" : {
+        "picked" : "Korjamine oli edukas!",
+        "sold" : "Sa müüsid %s summaga $%s",
+        "notenough" : "Teil pole midagi!",
+        "failedSkill" : "Te ei ulatunud puuni!"
+    },
+
+    "progress" : {
+        "picking" : "Võtad ülesse"
+    },
+
+    "textui" : {
+        "buyer" : "**[E]** Müü puuviljasid"
+    },
+
+    "target" : {
+        "buyer" : "Müü puuviljasid"
+    },
+
+    "menu" : {
+        "buyer" : "Müü esemed põllumehe Joele",
+        "buyer_sell" : "Müü %s",
+        "buyer_sellall" : "Müü kõik",
+        "buyer_sellone" : "Müü 1x"
+    }   
+}

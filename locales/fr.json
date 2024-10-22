@@ -1,0 +1,29 @@
+
+
+{
+    "notify" : {
+        "picked" : "Cueillette réussie",
+        "sold" : "Vous avez vendu votre %s pour $%s",
+        "notenough" : "Vous n'en avez pas !",
+        "failedSkill" : "Vous n'avez pas réussi à cueillir !"
+    },
+
+    "progress" : {
+        "picking" : "Cueillir..."
+    },
+
+    "textui" : {
+        "buyer" : "**[E]** Vendre des fruits"
+    },
+
+    "target" : {
+        "buyer" : "Vendre des fruits"
+    },
+
+    "menu" : {
+        "buyer" : "Vendre des articles au fermier Joe",
+        "buyer_sell" : "Vendre %s",
+        "buyer_sellall" : "Vendre tout",
+        "buyer_sellone" : "Vendre x1"
+    }   
+}

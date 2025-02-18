@@ -290,7 +290,7 @@ return {
             pickChance = { -- The amount of something you have a chance of picking. Set max to 1 for one at a time
                 min = 1,
                 max = 3
-            },
+            },            
             pickDuration = 3,
             viewDistance = 1.5,
             interactDistance = 1.5,

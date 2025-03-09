@@ -1,0 +1,28 @@
+{
+    "notify": {
+        "picked": "Başarıyla topladınız!",
+        "sold": "%s'i $%s karşılığında sattınız",
+        "notenough": "Hiç eşyaya sahip değilsiniz!",
+        "failedSkill": "Hiçbir şey toplamayı başaramadınız!",
+        "cooldownActive": "Bekleme süresi aktif!"
+    },
+
+    "progress": {
+        "picking": "Toplanıyor..."
+    },
+
+    "textui": {
+        "buyer": "**[E]** Meyve Sat"
+    },
+
+    "target": {
+        "buyer": "Meyve Sat"
+    },
+
+    "menu": {
+        "buyer": "Eşyaları Çiftçi Joe'ya Sat",
+        "buyer_sell": "%s Sat",
+        "buyer_sellall": "Hepsini Sat",
+        "buyer_sellone": "1x Sat"
+    }
+}

@@ -1,5 +1,3 @@
-if not lib.checkDependency('stevo_lib', '1.6.9') then error('stevo_lib 1.6.9 required for stevo_fruitpicking') end
-lib.versionCheck('stevoscriptsteam/stevo_fruitpicking')
 lib.locale()
 local stevo_lib = exports['stevo_lib']:import()
 local config = lib.require('config')
